@@ -1,27 +1,25 @@
 {
-  "_from": "element-ui",
+  "_from": "git+https://github.com/Stormplay/element.git",
   "_id": "element-ui@2.15.12",
   "_inBundle": false,
-  "_integrity": "sha512-Y5FMT2BPOindU2GkDEQ5ZKUVxDawKONRNMh2eL3uBx1FOtvUJ+L6IxXLVsNxq4WnaX/UnVNgWXebl7DobygZMg==",
+  "_integrity": "",
   "_location": "/element-ui",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "element-ui",
-    "name": "element-ui",
-    "escapedName": "element-ui",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
+    "type": "git",
+    "raw": "https://github.com/Stormplay/element",
+    "rawSpec": "https://github.com/Stormplay/element",
+    "saveSpec": "git+https://github.com/Stormplay/element.git",
+    "fetchSpec": "https://github.com/Stormplay/element.git",
+    "gitCommittish": null
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/element-ui/-/element-ui-2.15.12.tgz",
+  "_resolved": "git+https://github.com/Stormplay/element.git#d39c6aff4c067c4f4e0e7c3a4950a29c04423d5f",
   "_shasum": "fdde927a54078b17a85541ff7c0f0dad32488b8e",
-  "_spec": "element-ui",
+  "_spec": "https://github.com/Stormplay/element",
   "_where": "D:\\domains\\vueui\\splus",
   "bugs": {
     "url": "https://github.com/ElemeFE/element/issues"

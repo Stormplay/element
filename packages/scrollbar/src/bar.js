@@ -24,17 +24,22 @@ export default {
   render(h) {
     const { size, move, bar } = this;
 
-    return (
-      <div
-        class={ ['el-scrollbar__bar', 'is-' + bar.key] }
-        onMousedown={ this.clickTrackHandler } >
-        <div
-          ref="thumb"
-          class="el-scrollbar__thumb"
-          onMousedown={ this.clickThumbHandler }
-          style={ renderThumbStyle({ size, move, bar }) }>
-        </div>
-      </div>
+    return h(
+      'div',
+      {
+        'class': ['el-scrollbar__bar', 'is-' + bar.key],
+        on: {
+          'mousedown': this.clickTrackHandler
+        }
+      },
+      [h('div', {
+        ref: 'thumb',
+        'class': 'el-scrollbar__thumb',
+        on: {
+          'mousedown': this.clickThumbHandler
+        },
+
+        style: renderThumbStyle({ size: size, move: move, bar: bar }) })]
     );
   },
 
